@@ -15,7 +15,7 @@
 
 1. 还原数据库
 2. 修改/Blog/src/db/ConnDb.java中的数据库连接信息
-3. 修改/Blog/src/servlet/SendEmail.java第68行处的emailname和emailpassword，即邮箱账号和密码，用于发送邮件，若使用163邮箱，则密码使用的是smtp密码，需登录163邮箱设置
+3. 修改/Blog/src/servlet/SendEmail.java第68行处的emailAccount和emailPassword，即邮箱账号和密码，用于发送邮件，若使用163邮箱，则密码使用的是smtp密码，需登录163邮箱设置
 
 * 无注册功能，数据库中有事先准备好的账号：admin，密码：123456，邮箱：emailaccount@163.com
 * 数据库admin表中邮箱字段用于发送邮件找回密码
