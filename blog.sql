@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50523
 File Encoding         : 65001
 
-Date: 2017-03-15 08:42:11
+Date: 2017-03-15 10:17:20
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -29,7 +29,7 @@ CREATE TABLE `admin` (
 -- ----------------------------
 -- Records of admin
 -- ----------------------------
-INSERT INTO `admin` VALUES ('admin', '123456', 'justxzm@163.com');
+INSERT INTO `admin` VALUES ('admin', '123456', 'emailaccount@163.com');
 
 -- ----------------------------
 -- Table structure for article
